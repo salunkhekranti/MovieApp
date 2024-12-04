@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonald's</title>
+    
+    <link rel="stylesheet" type="text/css" href="home.css">
+
+</head>
+<body>
+    <!---main div opening -->
+   
+
+    <div id="container">
+    <!--left box is opening-->
+        <div id="left">
+            <!---comapny img left top boeder-->
+           <a href="http://127.0.0.1:5500/home.html" >  <img class="img_1" id="script_head_img" src="https://mcdindia.com/wp-content/uploads/2020/04/logo-symbol.svg" alt="website image"></a>
+           <!---h1 tags in the left box-->
+              <form id="form1">
+            <h1 class="img_1" id="Script_head1">ALL New</h1>
+            <h1 class="img_1" id="Script_head2">Dil Se Makhani<br>Burgers</h1>
+        </form>
+        <form id="form2">
+           <button class="arrows" id="script_slid1" onclick="slid1()" ><img class="arrow" src="https://tse1.mm.bing.net/th?id=OIP.43R--FLdUK76Ze38rjn94wAAAA&pid=Api&P=0&w=245&h=169" alt="leftimg"></button>
+           <button class="arrows" id="script_slid2" onclick="slid2()" ><img class="arrow" src="https://tse1.mm.bing.net/th?id=OIP.PchDjw28xEhg_wjgPsw_oAHaF7&pid=Api&P=0&w=213&h=170" alt="leftimg"></button>
+        </form>
+        </div>
+
+        <!----left box endeed-->
+
+
+        <!----right boxstarted-->
+        <div id="right">
+            <form id="form3">
+                <h3 class="dece">Menu</h3>
+                <h3 class="dece">Happy Meal</h3>
+                <h3 class="dece">Restaurants</h3>
+                <h3 class="dece">McDelivery</h3>
+                <h3 class="dece">News</h3>
+
+            </form>
+         </div>
+<!-----right side of the box is ended-->
+    </div>
+    <!---container div also ended-->
+    <div id="tabs_sidebar">
+        <form id="form4">
+            <button class="tabs_buttons" onclick="myfunction1()" >BURGERS & WRAP</button>
+            <button class="tabs_buttons" onclick="myfunction2()">SNACKS & SIDES</button>
+            <button class="tabs_buttons" onclick="myfunction3()">DESSERTS</button>
+            <button class="tabs_buttons" onclick="myfunction4()">BEVERAGES</button>
+        </form>
+<!----theory of the button tags-->
+      <div class="tabs_content" >
+            <div class="box1">
+            <h1 id="script_h1">McAloo Tikki Burger®</h1>
+            <h2 id="script_h2">The one that never goes out of f(I)avour.</h2>
+            <p id="script_p">A golden fried vegetarian patty prepared with peas, potato and infused with<br>aromatic spices.Clubbed with sliced tomatoes,yonnais.
+                 shredded red onion,<br> and tangy tomato mayonnaise. Served in a warm toasted bun.
+                </p>
+                <h3 id="script_h3">Serving Size: 146 gm</h3>
+                <h2 id="script_h22">Allergen Warning! Contains:</h2>
+                <p id="script_pp">Gluten,Milk and/or Milk products, Soyabean derivatives</p>
+                <div class="box">
+                    <h3>Calories<br>334kCal</h3>
+                    <h3>Protein<br>7gm</h3>
+                    <h3>Fats<br>12gm</h3>
+                    <h3>Carbs<br>50gm</h3>
+                </div>
+                </div>
+                <div class="box2">
+                    <img id="box_img22" src="https://mcdindia.com/wp-content/uploads/2020/02/2.1-mcaloo-tikki-cheese.png" alt="img">
+                </div>
+        </div>
+
+    <!--  <div class="tabs_content" data-tab="2">
+            <div class="box1">
+                <h1>McAloo Tikki Burger®</h1>
+                <h2>The one that never goes out of f(I)avour.</h2>
+                <p>A golden fried vegetarian patty prepared with peas, potato and infused with<br>aromatic spices.Clubbed with sliced tomatoes,yonnais.
+                     shredded red onion,<br> and tangy tomato mayonnaise. Served in a warm toasted bun.
+                    </p>
+                    <h3>Serving Size: 146 gm</h3>
+                    <h2>Allergen Warning! Contains:</h2>
+                    <p>Gluten,Milk and/or Milk products, Soyabean derivatives</p>
+                    <div class="box">
+                        <h3>Calories<br>334kCal</h3>
+                        <h3>Protein<br>7gm</h3>
+                        <h3>Fats<br>12gm</h3>
+                        <h3>Carbs<br>50gm</h3>
+                    </div>
+                    </div>
+                    <div class="box2">
+                        <img src="https://mcdindia.com/wp-content/uploads/2020/02/2.1-mcaloo-tikki-cheese.png" alt="img">
+                    </div>
+        </div>
+        <div class="tabs_content" data-tab="3">
+            <div class="box1">
+                <h1>McAloo Tikki Burger®</h1>
+                <h2>The one that never goes out of f(I)avour.</h2>
+                <p>A golden fried vegetarian patty prepared with peas, potato and infused with<br>aromatic spices.Clubbed with sliced tomatoes,yonnais.
+                     shredded red onion,<br> and tangy tomato mayonnaise. Served in a warm toasted bun.
+                    </p>
+                    <h3>Serving Size: 146 gm</h3>
+                    <h2>Allergen Warning! Contains:</h2>
+                    <p>Gluten,Milk and/or Milk products, Soyabean derivatives</p>
+                    <div class="box">
+                        <h3>Calories<br>334kCal</h3>
+                        <h3>Protein<br>7gm</h3>
+                        <h3>Fats<br>12gm</h3>
+                        <h3>Carbs<br>50gm</h3>
+                    </div>
+                    </div>
+                    <div class="box2">
+                        <img src="https://mcdindia.com/wp-content/uploads/2020/02/2.1-mcaloo-tikki-cheese.png" alt="img">
+                    </div>
+
+        </div>
+        <div class="tabs_content" data-tab="4">
+            <div class="box1">
+                <h1>McAloo Tikki Burger®</h1>
+                <h2>The one that never goes out of f(I)avour.</h2>
+                <p>A golden fried vegetarian patty prepared with peas, potato and infused with<br>aromatic spices.Clubbed with sliced tomatoes,yonnais.
+                     shredded red onion,<br> and tangy tomato mayonnaise. Served in a warm toasted bun.
+                    </p>
+                    <h3>Serving Size: 146 gm</h3>
+                    <h2>Allergen Warning! Contains:</h2>
+                    <p>Gluten,Milk and/or Milk products, Soyabean derivatives</p>
+                    <div class="box">
+                        <h3>Calories<br>334kCal</h3>
+                        <h3>Protein<br>7gm</h3>
+                        <h3>Fats<br>12gm</h3>
+                        <h3>Carbs<br>50gm</h3>
+                    </div>
+                    </div>
+                    <div class="box2">
+                        <img src="https://mcdindia.com/wp-content/uploads/2020/02/2.1-mcaloo-tikki-cheese.png" alt="img">
+                    </div>
+        </div>
+
+    </div>
+-->
+
+<!--sliding window beside the buttons-->
+<div id="sliding">
+    <div class="item">
+        <img id="scri_img11" src="https://mcdindia.com/wp-content/uploads/2020/02/2.1-mcaloo-tikki-cheese.png" alt="imgs"/>
+        <h3 id="scri_imgh1">McSpicy Panner</h3>
+    </div>
+    <div class="item">
+        <img  id="scri_img111" src="https://mcdindia.com/wp-content/uploads/2020/02/2.1-mcaloo-tikki-cheese.png" alt="imgs"/>
+        <h3 id="scri_imgh11">Spicy Chicken Wrap</h3>
+    </div>
+    <div class="item">
+        <img id="scri_img1111"  src="https://mcdindia.com/wp-content/uploads/2020/02/2.1-mcaloo-tikki-cheese.png" alt="imgs"/>
+        <h3 id="scri_imgh111">McEgg</h3>
+    </div>
+    <div class="item">
+        <button class="skilp_arrow" onclick="change1()"><</button>
+        <button class="skilp_arrow" id="scri_round" onclick="change2()">></button>
+    
+    </div>
+</div>
+    <!---boxes are ended-->
+
+<!----background dots imgs are started-->
+
+<div id="dots_img">
+    <div id="left1">
+        <img src="https://mcdindia.com/wp-content/uploads/2020/05/happy-meal-logo2x-compressor.png" alt="img" />
+        <video autoplay src="https://mcdindia.b-cdn.net/app-download.mp4"></video>
+        <h3>DOWNLOAD APP FROM</h3>
+        <div id="download">
+            <div class="img_box1">
+                
+            </div>
+            <div class="img_box2"></div>
+           
+
+        </div>
+    </div>
+    <!---animated video img is ended-->
+
+    <!--right side of the images will started-->
+    <div id="right1">
+    <div class="round_img">
+        <img src="https://mcdindia.com/wp-content/uploads/2020/05/screen-12x-compressor.png" alt="img">
+        <h2>Discover<br>Your kid's<br>musical talents</h2>
+
+    </div>
+    <div class="round_img">
+        <img src="https://mcdindia.com/wp-content/uploads/2020/05/screen-12x-compressor.png" alt="img">
+        <h2>Discover<br>Your kid's<br>musical talents</h2>
+        
+    </div>
+    <div class="round_img">
+        <img src="https://mcdindia.com/wp-content/uploads/2020/05/screen-12x-compressor.png" alt="img">
+        <h2>Discover<br>Your kid's<br>musical talents</h2>
+        </div>
+    
+   </div>
+   
+   
+   
+
+</div>
+<!---ended the dots of the background img-->
+
+<div id="happymeal">
+    <div class="tags" id="t">
+        <div id="tt">
+        <img src="https://mcdindia.com/wp-content/uploads/2020/02/happy-meal.svg" alt=""/>
+        <h1>Don't worry,<br>Eat Happy</h1>
+        <h3>now every meal can be  a Happy Meal</h3>
+        <p>
+            Regardless of your age, McDonald’s promises to invoke the innocence <br>
+            and joy of childhood with our Happy Meals. So, whether you’re with a<br> 
+            child, yourself one, or simply passionate about collecting every toy<br>
+            possible, don’t hold back. There’s a new, joyous surprise for you every<br>
+            month. Start collecting now!
+        </p>
+        </div>
+    </div>
+    <div class="tags">
+        <div id="win">
+            <div class="tabss">
+                <img src="https://mcdindia.com/wp-content/uploads/2021/11/pet-vet-barbie.jpg" alt="img"/>
+                <button>Pet Vet Barbie</button>
+            </div>
+            <div class="tabss">
+                <img src="https://mcdindia.com/wp-content/uploads/2021/11/princess-barbie.jpg" alt="img"/>
+                <button>Princess Barbie</button>
+            </div>
+            <div class="tabss">
+                <img src="https://mcdindia.com/wp-content/uploads/2021/11/racer-barbie.jpg" alt="img"/>
+                <button>Racer car Barbie</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-----ended the slide and dors background yellow color-->
+
+
+<div id="selectt">
+    <div class="sele">
+        <form>
+        <h1>Select City</h1>
+        <select id="se">
+            <option>Select a City</option>
+            <option>Andhra Pradesh</option>
+            <option>Tamil Nadu</option>
+            <option>Karnataka</option>
+            <option>kelara</option>
+            <option>Maharastra</option>
+        </select>
+        </form>
+        <div>
+            <img id="se_img" src="https://tse1.explicit.bing.net/th?id=OIP.U7c5fi51dz_MfgY7zOJXOgHaE5&pid=Api&P=0&w=254&h=168" alt="ff"/>
+        </div>
+
+    </div>
+    <!-----right side the div tag happy images in these place-->
+
+
+    <div class="sele1">
+        <img src="https://dwu32cgxelq1c.cloudfront.net/local_newspapers/sites/3/2014/09/Happy_500mmx500mm-Medium.jpg" alt="hdhd"/>
+         <img src="https://tse2.mm.bing.net/th?id=OIP.rrteJS3QdWV0qpHI_U6iKAHaEK&pid=Api&P=0&w=278&h=156" alt="df"/>  -->
+    </div>
+
+</div>
+<!----enbded of the background happy images-->
+
+<!---food delivery images in the website -->
+
+<div id="bike_img">
+    <!---left side of the img-->
+<div id="bike_img1">
+<img src="https://mcdindia.com/wp-content/uploads/2019/12/logo-mcdelivery.svg" alt="img"/>
+<h1>Order For<br>Home-Delivered Smiles</h1>
+<h3>We deliver to your doorstep</h3>
+<p>McDelivery allows you to experience delicious McDonald’s food from<br>
+     the comfort of your sofa at home or cubicle in office. All orders are<br>
+      delivered quickly and efficiently, allowing you the peace of mind to <br>
+      know that smiles-inducing food is never too far.</p>
+
+      <button> ORDER NOW</button>
+
+      <div id="order">
+          <h2>Now also on:</h2>
+          <img class="dev_img" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/926aee75130243.5c44792f24621.png" alt="swiggy"/>
+          <img class="dev_img"src="https://tse3.mm.bing.net/th?id=OIP.a_VOb9rBUgV7nu2wsqm1KQHaEK&pid=Api&P=0&w=310&h=174" alt="zomato"/>
+          <img class="dev_img"src="https://entrackr.com/wp-content/uploads/2017/12/magicpin-image-1200x600.jpg" alt="magic"/>
+
+      </div>
+
+</div>
+<!---left side of the box ended-->
+<div id="bike_img2">
+
+</div>
+
+</div>
+<!-------delivery bike imges block has been ended-->
+
+<!---now starting the News and highlights-->
+
+
+
+<div id="sponerdiv">
+    <h1 style="margin-left: 100px; font-size: 50px;">News & Highlights</h1>
+    <div id="double_box">
+        <img  style="margin-left: 200px;" src="https://mcdindia.com/wp-content/uploads/2020/02/2.10-maharaja-mac-veg.png" alt=""/>
+        <div id="double_tag">
+            <h1>McDonald's India<br>introduces new Butter<br>Chicken and Butter<br>Paneer Grilled Burgers</h1>
+            <p>Inspired by India’s popular casual dining dishes,<br>
+                 McDonald’s India – North and East has added a<br>
+                  makhani twist to the menu with the introduction of two<br>
+                   new grilled burgers - Butter Chicken and Butter Paneer.</p>
+                   <h2 style="color: rgb(219,0,7);">Read more</h2>
+        </div>
+    </div>
+    <!---first part is completeed ---->
+    <!---second part is started-->
+    <div id="news">
+        <div class="news1">
+        <img class="news1_img" src="https://mcdindia.com/wp-content/uploads/2021/12/mcd-post-dec-1.jpg" />
+        <button class="news1_button"> NEWS</button>
+        <h3  class="news1_h3">Grab this scrumptious offer and make your happy meal, a true value meal</h3>
+      <a href="https://papermart.in/mcdonalds-implementing-solutions-to-expand-the-reduction-reuse-and-recycling-of-guest-packaging/" >
+           <h2 style="color: rgb(219,0,7);">Read more</h2></a>
+    </div>
+        <div class="news1">
+            <img class="news1_img" src="https://mcdindia.com/wp-content/uploads/2021/12/mcd-post-1-1.jpg" />
+            <button class="news1_button"> NEWS</button>
+            <h3 class="news1_h3">
+                McDonald’s: Implementing Solutions to Expand the Reduction, Reuse, and Recycling of Guest Packaging
+            </h3>
+            <h2 style="color: rgb(219,0,7);">Read more</h2>
+        </div>
+        <div class="news1">
+            <img class="news1_img" src="https://mcdindia.com/wp-content/uploads/2021/12/mcd-post-1.jpg" />
+            <button class="news1_button"> NEWS</button>
+            <h3  class="news1_h3">With ’25 Years Of Lovin It’, McDonald’s India – North & East celebrates silver jubilee</h3>
+            <h2 style="color: rgb(219,0,7);">Read more</h2>
+        </div>
+
+        <!--sponsers images has been complted-->
+
+        <!--beside the sponsers img-->
+        <div class="news2">
+            <h3>LATEST NEWS</h3>
+            <h4 class="news2_h4">McDonald’s Celebrates 25 Years With Great Deals Priced At Just Rs. 25</h4>
+        <p>December 3, 2021</p>
+        <hr>
+        <h4  class="news2_h4">McDonalds India launches a contemporary rendition and continuation story of memorable campaign ‘Hum dono boyfriend-girlfriend hai kya’</h4>
+        <p>December 3, 2021</p>
+        <hr>
+        <h4  class="news2_h4">The crunch in your burger is Iceberg Lettuce, locally produced in Manali and Lahaul districts thanks to McDonald’s</h4>
+        <p>December 3, 2021</p>
+        
+        </div>
+    </div>
+
+</div>
+
+<!----ended the sponsers tags-->
+
+<!---now beginneing the sliding window of footers above part-->
+
+<div id="sliding_last">
+    <div class="sli_backk">
+        <h1>Instagram</h1>
+        <p>@mcdonaldsinindia</p>
+        <button>+ FOLLOW</button>
+    </div>
+    <div id="sli_slid">
+        
+        <div class="sli_scr">
+            <marquee behavior="scroll" direction="left">
+            <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2020/12/home-ff-slide-1-new.jpg"/>
+            <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2021/12/mcd-post-1.jpg"/>
+            <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2021/12/mcd-post-dec-1.jpg"/>
+            <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2020/02/5.5-iced-tea.png"/>
+            <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2020/02/2.6-mcspicy-paneer-single.png"/>
+            <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2020/02/3.3-fries.png"/>
+
+            </marquee>
+
+           
+        
+        </div>
+
+        <div class="sli_scr">
+            <marquee behavior="scroll" direction="right" >
+                <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2020/12/home-ff-slide-1-new.jpg"/>
+                <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2021/09/img-2.jpg"/>
+                <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2021/09/img-1.jpg"/>
+                <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2022/02/img-1.jpg"/>
+                <img class="Scrollling_mar"height="200px" width="200px" src="https://mcdindia.com/wp-content/uploads/2020/12/home-ff-slide-5.jpg"/>
+                <img class="Scrollling_mar"height="200px" width="200px" src="https://scontent.cdninstagram.com/v/t51.2885-15/274402945_627136578572925_3485284627806482658_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=4Vpik7jjyNQAX89JvnL&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-y4KvaAqZ1tGm7-JvAQVEGX5nDIyEkMaboR9nOrAXBLg&oe=62262BD8"/>
+    
+          
+        </marquee>
+        </div>
+    
+
+    </div>
+</div>
+
+<!--completed the body part-->
+    
+
+</body>
+<footer style="background-color: rgb(235,235,236);">
+    <div id="footer">
+        <div id="foot_img1">
+            <h1>Special Offers<br>
+            & News</h1>
+            <h2>Subscribe now for news, promotions and<br>
+                more delivered right to your inbox.</h2>
+                <form>
+                    <input id="in">
+                    <button id="b">SUBSCRIBE</button>
+                </form>
+                <form id="for"> 
+                <h4>Follow us on:</h4>
+                <img class="for_img"src="http://cdn.onlinewebfonts.com/svg/img_24838.png">
+            <img class="for_img" src="https://www.pnglib.com/wp-content/uploads/2020/08/new-black-instagram-logo-2020_5f45b7b3c51e4.png"/>
+       
+        </form>
+        <img src="https://mcdindia.com/wp-content/uploads/2019/12/french-fries.png"/>    
+        </div>
+        <div id="foot_img2">
+            <img  style="height: 100%; width: 100%;" src="https://dwu32cgxelq1c.cloudfront.net/local_newspapers/sites/3/2014/09/Happy_500mmx500mm-Medium.jpg"/>
+       
+        </div>
+    </div>
+    <hr>
+    <div id="foot_last">
+        <form style="display: flex; margin-left: 500px;">
+            <img src="https://mcdindia.com/wp-content/uploads/2020/01/m-logo-big.svg"/>
+            <h4>© 2020-21 McDonald's. All Rights Reserved.
+            </h4>
+            
+        </form>
+        <p style="text-align: center;">Connaught Plaza Restaurants Private Limited (licensee of McDonald's in North & East India)</p>
+ <form style="display: flex; text-align: center; margin-left: 450px;">
+     <p class="foot_p">FAQ</p>
+     <p class="foot_p">Terms & CONDITIONS</p>
+     <p class="foot_p">PRIVACY POLICY</p>
+     <p class="foot_p">FEEDBACK</p>
+     <p class="foot_p">CARRERS</p>
+     <p class="foot_p">CONTACT US</p>
+
+ </form>
+    </div>
+</footer>
+</html>
+<script src="home.js"></script>

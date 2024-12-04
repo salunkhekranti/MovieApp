@@ -1,0 +1,639 @@
+#container{
+    
+    width: 100%;
+    height: 750px;
+    display: flex;
+}
+#left{
+width: 45%;
+height: 100%;
+background-color: #FFBC0D;
+}
+#right{
+width: 55%;
+height: 100%;
+}
+.img_1{
+    margin-left: 120px;
+
+}
+#form1{
+    margin-top: 200px;
+    font-size: 2rem;
+
+    color: #DB0007;
+}
+#form2{
+    display: flex;
+    height: 50px;
+    
+    width: 30%;
+    margin-left: 120px;
+}
+.arrows{
+    height: 100%;
+    margin-left: 25px;
+    border-radius: 100%;
+}
+.arrows:hover{
+    background-color: blue;
+}
+.arrow{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+#right
+{
+    background-image: url("https://mcdindia.com/wp-content/uploads/2022/01/img-makhani-burger-2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+#right form{
+    display: flex;
+    margin-left: 100px;
+}
+#right form>h3{
+    margin-left: 50px;
+    color: black;
+}
+#tabs_sidebar{
+    background-color: rgb(255,255,255);
+    height: 500px;
+    width: 100%;
+
+}
+#form4{
+    margin-top: 50px;
+    margin-left: 30px;
+    
+    width: 50%;
+}
+#form4>button{
+    margin-left: 20px;
+    height: 40px;
+    font-size: 20px;
+  
+    border: rgb(255,255,255);
+    color: rgb(99, 96, 96);background-color: white;
+}
+    #form4>button:hover{
+        text-decoration: underline;
+        color:rgb(221,53,58);
+        
+    }
+    
+
+.tabs_content{
+    margin-left: 50px;
+    display: flex;
+    flex-shrink: 0;
+}
+.box{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    border-radius: 100px;
+background-color: rgb(219,0,7);
+}
+.box h3{
+    margin-left: 10%;
+    font-size: 20px;
+    color: white;
+}
+.box1{
+    width: 60%;
+    height: 430px;
+   
+}
+.tabs_buttons:active{
+    background-color: white;
+}
+.tabs_buttons:not(:last-of-type){
+    border-bottom: 1px solid red;
+}
+.tabs_buttons:active{
+    border-bottom:  2px solid green;
+    background-color: red;
+}
+/*main of the silding windoews*/
+.tabs_content--active {
+    display: block;
+    display: flex;
+}
+#sliding{
+    width: 90%;
+    height: 70px;
+    
+    margin: auto;
+    display: flex;
+}
+.item{
+    width: 25%;
+    height: 100%;
+    margin-left: 50px;
+  
+    display: flex;
+    gap: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.item img{
+    height: 90%;
+    width: 20%;
+}
+#dots_img{
+    width: 100%;
+    height: 700px;
+   
+    margin-top: 100px;
+    background-image: url("https://mcdindia.com/wp-content/uploads/2020/05/bg-happy-meal-app2x.jpg");
+    background-size: 100% 100%;
+    display: flex;
+}
+#left1{
+    
+    margin-left: 10%;
+    width: 25%;
+}
+#left1 img{
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 20%;
+}
+#left1 video{
+    height: 40%;
+    width: 80%;
+    margin-left: 50px;
+    background-color: yellow;
+}
+#left1>h3{
+    margin-left: 60px;
+} 
+#download{
+    width: 90%;
+    height: 7%;
+
+    margin: auto;
+    display: flex;
+}
+.img_box1{
+    width: 40%;
+ 
+    background-image: url("https://mcdindia.com/wp-content/uploads/2020/05/app-store2x.png");
+    background-size: 100% 100%;
+    margin-left: 20px;
+}
+.img_box2{
+    width: 40%;
+
+    background-image: url("https://mcdindia.com/wp-content/uploads/2020/05/play-store2x.png");
+    background-size: 100% 100%;
+    margin-left: 20px;
+    
+}
+
+
+#right1{
+    margin-left: 30px;
+      width: 80%;
+      height: 400px; 
+    
+    display: flex; 
+}
+.round_img{
+    height: 100%;
+  
+    width: 100%;
+    margin-left: 10px;
+    text-align: center;
+}
+.round_img img{
+    height: 60%;
+    width: 80%;
+    margin-left: 20px;
+}
+#right2{
+    
+    width: 90%;
+    height: 300px;
+}
+#happymeal{
+    height: 600px;
+    width: 100%;
+   
+    background-color:rgb(254,187,13);
+    display: flex;
+    
+
+}
+.tags{
+    width: 50%;
+    
+    ;
+}
+#t{
+    background-color: white;
+    margin-top: 10px;
+}
+#tt{
+  margin-left: 100px;
+  
+  height: 100%;
+
+}
+#tt img{
+    margin-top: 80px;
+}
+#tt h1{
+    font-size: 50px;
+}
+#tt h3{
+    color: rgb(220,5,12);
+    font-size: 20px;
+}
+#tt p{
+    font-size: 22px;
+}
+#win{
+    margin-top: 200px;
+
+    width: 100%;
+    height: 300px;
+   
+    display: flex;
+}
+.tabss{
+    
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+.tabss img{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+}
+.tabss button{
+    width: 100%;
+    height: 15%;
+    color: white;
+   
+    font-size: 20px;
+    border-radius: 100px;
+    background-color: rgb(232,76,13);
+}
+#selectt{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    
+    display: flex;
+}
+.sele{
+    width: 40%;
+    
+    margin-left: 20px;
+    background-color: rgb(253,253,253);
+}
+.sele form{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#se{
+    width: 60%;
+    height: 50px;
+    background-color: rgb(255,188,13);
+    border-radius: 100px;
+    font-size: 20px;
+    text-align: center
+    ;
+
+}
+#se_img{
+    margin-top: 70px;
+    margin-left: 130px;
+}
+.sele1{
+    width: 60%;
+  
+    display: flex;
+background-image: url("https://media.istockphoto.com/vectors/celebration-background-template-vector-id928844676");
+}
+.sele1 img{
+    width: 50%;
+    height: 80%;
+}
+#bike_img{
+    width: 100%;
+    height: 800px;
+    
+    background-color: rgb(244,187,38);
+    display: flex;
+}
+#bike_img1{
+    width: 55%;
+
+    height: 100%;
+    margin-top: 50px;
+    background-color: white;
+    height: 750px;
+}
+#bike_img1 img{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+#bike_img1 h1{
+    margin-left: 100px;
+    font-size: 56px;
+}
+#bike_img1 h3{
+    margin-left: 100px;
+}
+#bike_img1 p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+#bike_img1>button{
+    margin-left: 100px;
+    background-color: red;
+    width: 40%;
+    border-radius: 100px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: 2px solid red;
+
+}
+#order{
+    margin-left: 100px;
+    width: 80%;
+   
+    height: 70px;
+    margin-top: 30px;
+    display: flex;
+}
+.dev_img{
+    width: 75px;
+    height: 100%;
+    transform: translateY(-70px);
+    border-radius:100px;
+}
+
+
+
+#bike_img2{
+    width: 45%;
+    
+    height: 100%;
+    background-image: url("https://mcdindia.com/wp-content/uploads/2021/12/mcd-gif.gif");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: 20px;
+}
+
+#sponerdiv{
+    width: 100%;
+    height: 1000px;
+    
+    margin-top: 50px;
+    background-image: url("https://mcdindia.com/wp-content/uploads/2020/05/bg-happy-meal-app2x-659x414.jpg");
+    background-size: 100% 100%;
+}
+#double_box{
+    display: flex;
+    
+}
+#double_tag{
+  
+    width:30%;
+    background-color: #EBEBEC;
+    text-align: center;
+    height: 80%;
+    margin-top: 5%;
+
+} 
+#double_tag p{
+    font-size: 20px;
+}
+#news{
+    width: 80%;
+    height: 350px;
+    display: flex;
+    margin: auto;
+}
+.news1{
+    width: 20%;
+    
+    margin-left: 20px;
+    background-color: #FFBC0D;
+}
+.news1_img{
+    width: 100%;
+    height: 50%;
+}
+.news1_button{
+    background-color: red;
+    border: 2px solid red;
+transform: translateY(-17px);
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    color: white    ;
+}
+.news1_h3{
+    font-size: 16px;
+    margin-top:-10px;
+
+}
+.news2{
+    width: 33%;
+    height: 100%;
+    margin-left: 20px;
+}
+.news2_h4{
+    margin-top: -10px;
+    font-size: 16px;
+}
+#sliding_last{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+
+}
+#footer{
+    width: 100%;
+    height: 760px;
+    
+    display: flex;
+    border-radius: 50px;
+}
+#foot_img1{
+    width: 50%;
+    height:760px;
+    background-image: url("https://mcdindia.com/wp-content/uploads/2020/01/asset-12x.jpg");
+text-align: center;
+border-radius: 1250px;
+}
+#in{
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    border: 5px solid white;
+    background-color: white;
+}
+#b{
+    background-color: #DB0007;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+
+#foot_img2{
+
+    width: 50%;
+   /* background-image: url("https://editorial.designtaxi.com/news-happymeal0404/7.jpg");
+*/
+
+}
+#for{
+    height: 100px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.for_img{
+    height: 50%;
+    margin-left: 20px;
+}
+
+#foot_last{
+    width: 100%;
+    height: 200px;
+    
+}
+.foot_p{
+    margin-left: 30px;
+    font-size: 10px;
+}
+.skilp_arrow{
+    width: 29%;
+    margin-left: 30px;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 100%;
+    height: 80%;
+    margin-top: 10px;
+}
+#scri_round{
+    background-color: black;
+    color: white;
+
+}
+.sli_backk{
+    background-color: rgb(0,183,173);
+    width: 35%;
+    height: 100%;
+    
+    text-align: center;
+}
+.sli_backk>h1{
+    margin-top: 150px;
+    font-size: 60px;
+}
+.sli_backk>p{
+    font-size: 30px;
+}
+.sli_backk>button{
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: rgb(255,188,13);
+    border: 2px solid rgb(255,188,13);
+}
+.sli_backk>button:hover{
+    background-color: black;
+    color: white;
+    border: 5px solid #00b7ad;
+}
+#sli_slid{
+    width: 65%;
+   background-color: rgb(246,246,246);
+}
+.sli_scr{
+   
+    width: 100%;
+    height: 220px;
+    margin-top: 20px;
+    display: flex;
+}
+.Scrollling_mar{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.dece:hover{
+    text-decoration: underline;
+    color: rgb(221,53,58);
+}
+
+.news1_h3{
+    text-decoration: wavy;
+}
+@media only screen and (min-width: 390px) and (max-width: 820px) {
+    .dece{
+        display: none;
+    }
+    #container{
+        width: 100%;
+        height: 500px;
+    
+    }
+   #Script_head1{
+       
+       font-size: 20px;
+   }
+   .img_1{
+       margin-left: 20px;
+   }
+   #Script_head2{
+       font-size: 20px;
+   }
+  #form2{
+      margin-left: 20px;
+
+  }
+  #tabs_sidebar{
+      width: 80%;
+
+  }
+  #form4{
+      width: 100%;
+  }
+  #box_img22{
+      width:200px;
+      height: 400px;
+  }
+
+  .box{
+      width: 1220px;
+  }
+  .box>h3{
+      margin-left: 20px;
+  }
+  .sliding{
+      width: 100%;
+      height: 100px;
+      margin-bottom: 120px;
+  }
+  #scri_imgh1{
+      font-size: 20px;
+    transform: translateX(-40px);
+  }
+
+}                           
